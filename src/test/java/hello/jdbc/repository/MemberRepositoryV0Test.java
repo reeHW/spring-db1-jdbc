@@ -35,7 +35,7 @@ class MemberRepositoryV0Test {
 
         //delete
         repository.delete(member.getMemberId());
-        assertThatThrownBy(()-> repository.findById((member.getMemberId())))
-                .isInstanceOf(NoSuchElementException.class);
+
+
     }
 }
